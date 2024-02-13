@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* remove default styles from page */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body section (start) */
+body{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #FFF2F9;
+    overflow: hidden;
+    
+}
+
+
+
+
+/* body section (end) */
+
+/* content */
+
+.heading{
+    text-align: center;
+    font-size: 56px;
+    padding-bottom: 46px;
+    color: #323232;
+
+}
+
+.btn_box{
+    text-align: center;
+}
+
+.btn_box .btn:nth-child(1){
+    
+        width: 200px;
+        height: 65px;
+        font-size: 22px;
+        line-height: 0px;
+        font-weight: 700;
+        background-color: #FE83C6;
+        color: white;
+        border: 4px solid black;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+}
+
+.btn_box .btn:nth-child(1) span{
+    position: relative;
+    top: -4px;
+}
+.btn_box .btn:nth-child(2){
+    background-color: black;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    height: 65px;
+    font-size: 22px;
+    line-height: 0px;
+    font-weight: 700;
+    transition: 500ms ease;
+}
+
+.limit{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+p{
+    text-align: center;
+
+}
+
+
+/* funny text */
+
+.funny_text{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    
+}
+
+.f-align{
+        display: flex;
+        height: 83px;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        justify-content: center;
+        
+}
+

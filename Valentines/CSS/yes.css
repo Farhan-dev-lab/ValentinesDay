@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* remove default styles from page */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body section (start) */
+body{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+
+    overflow: hidden;
+    
+}
+
+.yes_box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.rose{
+width: 200px;
+transition: 500ms ease-in-out;
+cursor: pointer;
+
+}
+
+.notmuch{
+
+        width: 100%;
+        height: 100%;
+        background-color: #00000099;
+        position: absolute;
+        color: white;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: 500ms ease-in-out;
+        backdrop-filter: blur(10px);
+    
+}
+
+
+
+.rose-btn{
+    color: black;
+    font-weight: 700;
+    width: 122px;
+    height: 48px;
+    font-size: 13px;
+    border: navajowhite;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+.notmuchbox{
+    position: absolute;
+        color: white;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0px;
+        margin: auto;
+        width: 650px;
+        
+}
+
+
+
+.rose-header {
+    padding-bottom: 12px;
+    font-size: 76px;
+}
+
+.rose-p {
+    width: 480px;
+    font-size: 28px;
+}
+
+
+.tulip {
+    
+    font-size: 35px;
+    top: 42px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 17px;
+    left: 37px;
+    cursor: pointer;
+   
+}
+
+
+.Tulip-overlay{
+    position: absolute;
+    z-index: 2;
+    background-color: #f4c018;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 0;
+    display: none;
+    transition: 500ms ease-in-out;
+}
+
+
+.tulip-overlay-header {
+    position: absolute;
+    color: white;
+    font-size: 110px;
+    width: 930px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
